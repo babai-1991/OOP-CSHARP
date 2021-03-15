@@ -10,8 +10,7 @@ namespace Exercise._2_Inheritence
     {
         public Company()
         {
-           
-            Employees = new List<Employee>();
+           Employees = new List<Employee>();
             Consultants = new List<Consultant>();
         }
         public string Name  { get; set; }

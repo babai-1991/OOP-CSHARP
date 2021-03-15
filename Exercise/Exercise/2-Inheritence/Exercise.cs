@@ -10,24 +10,33 @@ namespace Exercise._2_Inheritence
     {
         public static void Start()
         {
-            Company acme = new Company()
-            {
-                Name = "ACME Corp",
-                Employees = new List<Employee>()
-                {
-                    new Employee("Babai", Department.Programming),
-                    new Employee("Tatai", Department.Tester),
-                    new Employee("Papai", Department.Marketing),
-                    new Employee("Jon", Department.Management),
-                    new Employee("Sara", Department.Programming)
-                },
-                Consultants = new List<Consultant>()
-                {
-                    new Consultant("Jon Skeet",30.22m,23),
-                    new Consultant("Alex Allen",329.28m,12),
-                    new Consultant("John Papa",51.21m,8)
-                }
-            };
+            //Company acme = new Company()
+            //{
+            //    Name = "ACME Corp",
+            //    Employees = new List<Employee>()
+            //    {
+            //        new Employee("Babai", Department.Programming),
+            //        new Employee("Tatai", Department.Tester),
+            //        new Employee("Papai", Department.Marketing),
+            //        new Employee("Jon", Department.Management),
+            //        new Employee("Sara", Department.Programming)
+            //    },
+            //    Consultants = new List<Consultant>()
+            //    {
+            //        new Consultant("Jon Skeet",30.22m,23),
+            //        new Consultant("Alex Allen",329.28m,12),
+            //        new Consultant("John Papa",51.21m,8)
+            //    }
+            //};
+
+            Company acme = new Company {Name = "ACME Corp"};
+            acme.Employees.Add(new Employee("John",Department.Programming));
+            acme.Employees.Add(new Employee("Babai", Department.Programming));
+            acme.Employees.Add(new Employee("Papai", Department.Marketing));
+
+            acme.Consultants.Add(new Consultant("Jon Skeet", 30.22m, 23));
+            acme.Consultants.Add(new Consultant("Alex Allen", 329.28m, 12));
+            
             Display(acme);
         }
 
