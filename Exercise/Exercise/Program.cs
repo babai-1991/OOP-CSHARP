@@ -10,7 +10,8 @@ namespace Exercise
     {
         static void Main(string[] args)
         {
-            Exercise._2_Inheritence.Exercise.Start();
+            //Exercise._2_Inheritence.Exercise.Start();
+            Exercise._3_Polymorphism.Exercise.Start();
         }
     }
 }

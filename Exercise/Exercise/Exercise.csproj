@@ -43,12 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2-Inheritence\Bee.cs" />
     <Compile Include="2-Inheritence\Company.cs" />
     <Compile Include="2-Inheritence\Consultant.cs" />
     <Compile Include="2-Inheritence\Department.cs" />
+    <Compile Include="2-Inheritence\Drone.cs" />
     <Compile Include="2-Inheritence\Employee.cs" />
     <Compile Include="2-Inheritence\Exercise.cs" />
     <Compile Include="2-Inheritence\Person.cs" />
+    <Compile Include="2-Inheritence\Queen.cs" />
+    <Compile Include="3-Polymorphism\Boat.cs" />
+    <Compile Include="3-Polymorphism\Car.cs" />
+    <Compile Include="3-Polymorphism\Exercise.cs" />
+    <Compile Include="3-Polymorphism\Rocket.cs" />
+    <Compile Include="3-Polymorphism\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
