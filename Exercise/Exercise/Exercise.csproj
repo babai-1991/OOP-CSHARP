@@ -54,7 +54,10 @@
     <Compile Include="2-Inheritence\Queen.cs" />
     <Compile Include="3-Polymorphism\Boat.cs" />
     <Compile Include="3-Polymorphism\Car.cs" />
+    <Compile Include="3-Polymorphism\Consultant.cs" />
+    <Compile Include="3-Polymorphism\Employee.cs" />
     <Compile Include="3-Polymorphism\Exercise.cs" />
+    <Compile Include="3-Polymorphism\Person.cs" />
     <Compile Include="3-Polymorphism\Rocket.cs" />
     <Compile Include="3-Polymorphism\Vehicle.cs" />
     <Compile Include="Program.cs" />
