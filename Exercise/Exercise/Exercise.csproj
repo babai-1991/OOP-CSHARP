@@ -60,6 +60,11 @@
     <Compile Include="3-Polymorphism\Person.cs" />
     <Compile Include="3-Polymorphism\Rocket.cs" />
     <Compile Include="3-Polymorphism\Vehicle.cs" />
+    <Compile Include="4-Interfaces\Company.cs" />
+    <Compile Include="4-Interfaces\Employee.cs" />
+    <Compile Include="4-Interfaces\Exercise.cs" />
+    <Compile Include="4-Interfaces\IPayable.cs" />
+    <Compile Include="4-Interfaces\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
