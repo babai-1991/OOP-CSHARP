@@ -10,7 +10,9 @@ namespace Exercise._3_Polymorphism
     {
         public virtual void Start()
         {
-            Console.WriteLine("Vehicle started....");
+            Console.WriteLine($"{this} started....");
         }
+
+        public abstract void Stop();
     }
 }

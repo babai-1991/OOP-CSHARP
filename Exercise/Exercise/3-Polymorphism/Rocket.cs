@@ -16,9 +16,15 @@ namespace Exercise._3_Polymorphism
             base.Start();
         }
 
+        //have to implement abstract member
+        public override void Stop()
+        {
+            Console.WriteLine("Landing Rocket");
+        }
+
         public override string ToString()
         {
-            return base.ToString();
+            return "Rocket";
         }
     }
 } 

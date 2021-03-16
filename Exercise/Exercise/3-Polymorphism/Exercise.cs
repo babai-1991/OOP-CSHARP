@@ -18,6 +18,8 @@ namespace Exercise._3_Polymorphism
             foreach (var vehicle in vehicles)
             {
                 vehicle.Start();
+                vehicle.Stop();
+                Console.WriteLine();
             }
         }
     }
